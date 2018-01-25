@@ -1,0 +1,204 @@
+@charset "utf-8";
+/* CSS Document */
+
+body  {
+	margin: 0px;
+	padding: 0px;
+	background-color:#000;
+}
+#content {
+	width: 1000px;
+	margin-top: 20px;
+	margin-right: auto;
+	margin-bottom: 20px;
+	margin-left: auto;
+	background-image:url(Img/background.png);
+	height: 100%;
+	overflow: hidden;
+}
+#login {
+	background-image:url(Img/login.png);
+	color:white;
+	float: left;
+	height: 250px;
+	width: 470px;
+	margin-top: 20px;
+	margin-left: 20px;
+	text-align:center;
+}
+
+#text {
+	color:white;
+	float: right;
+	height: 230px;
+	width: 450px;
+	margin-top: 20px;
+	background-image:url(Img/login.png);
+	margin-right: 20px;
+	padding: 10px;
+}
+#text h2 {
+	margin: 20px;
+}
+#registration {
+	background-image: url(Img/registrationDiv.png);
+	float: left;
+	height: auto;
+	width: 926px;
+	margin: 12px;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	padding-left: 12px;
+	border: #383838 8px solid;
+	text-align: center;	
+}
+
+#registration form {
+margin: auto;
+text-align:center;	
+}
+
+#login form {
+margin: auto;
+text-align:center;	
+}
+
+#logo {
+	background-image:url(Img/logo.png);
+	float: left;
+	height: 80px;
+	width: 660px;
+	margin-top: 20px;
+	margin-left: 20px;
+	font-size: 72px;
+	color: #FFF;
+}
+#user-info {
+	width: 940px;
+	margin: 20px;
+	height: 80px;
+	padding: 10px;
+	background-image:url(Img/user-info.png);
+}
+.prof_info {
+	float: left;
+	height: 40px;
+	margin-left: 20px;
+	display: block;
+	text-align: center;
+}
+.prof_name {
+	float: left;
+	height: 40px;
+	width: 450px;
+	display: block;
+	margin-left: 20px;
+	text-align: center;
+}
+.prof_container {
+	display: block;
+	float: left;
+	height: 80px;
+}
+
+
+
+#navigation {
+	margin: 20px;
+	width: 560px;
+	height: 560px;
+	float: left;
+	background-image:url(Img/navigation.png);
+}
+#navigation h2 {
+	margin-top: 40px;
+}
+#navigation input {
+	margin-left: 35px;
+}
+#navigation p , #navigation h2 {
+	margin-left: 35px;
+	color: white;
+	width: 480px;
+	text-align:justify;
+}
+#buildCost {
+	color:white;
+	margin-left: 35px;
+	width: 480px;
+}
+#local-info {
+	margin: 20px;
+	float: right;
+	width: 275px;
+	padding: 35px;
+	height: 490px;
+	background-image:url(Img/localinfo.png);
+	color:white;
+}
+#local-info table tr td {
+	color:white;
+}
+#local-info a{
+	color:white;
+}
+#buildImg {
+	margin-left: 10px;
+	width:255px;
+	height:255px;
+}
+
+#footer {
+	margin: 20px;
+	padding: 10px;
+	float: left;
+	width: 940px;
+	height: 100px;
+	background-color: #0F0;
+}
+#profile-img {
+	margin: 20px;
+	padding: 10px;
+	height: 200px;
+	width: 200px;
+	float: left;
+}
+#profile-detail {
+	margin: 20px;
+	padding: 10px;
+	height: auto;
+	width: 200px;
+	float: left;
+}
+#profile {
+	margin: 20px;
+	padding: 10px;
+	height: 460px;
+	width: 670px;
+	float: right;
+	text-align: left;
+}
+#highscores {
+	color:white;
+}
+#train {
+	color:white;
+	margin-left: 35px;
+	margin-right: 35px;
+}
+a:link {
+	color: #000;
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: #000;
+}
+a:hover {
+	text-decoration: none;
+	color: #000;
+}
+a:active {
+	text-decoration: none;
+	color: #000;
+}
